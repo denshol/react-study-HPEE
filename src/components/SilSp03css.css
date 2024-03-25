@@ -1,0 +1,27 @@
+#back{
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    box-shadow: 10px 8px 5px 3px ;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+#front{
+    display: flex;
+    background-color: pink;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+*{
+    text-align: center;
+}

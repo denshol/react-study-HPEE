@@ -1,0 +1,17 @@
+$width: 400px;
+$height: 500px;
+$primary-color : black;
+
+
+.container{
+    border : 1px solid black;
+    width : $width;
+    height : $height;
+    background: url('../../public/images/apple.jpg');
+    background-size: cover;
+    $primary-color:red !default ;
+    background-color: $primary-color;
+}
+.hello{
+    color:$primary-color
+}

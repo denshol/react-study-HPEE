@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    
+}
+
+@mixin rainbow($size){
+    width:$size;
+    height: $size;
+}
+
+.red{
+    background-color: red;
+    @include rainbow(50px);
+}
+
+.orange{
+ background-color: orange;
+ @include rainbow(100px);
+}
+
+.yellow{
+    background-color: yellow;
+    @include rainbow(150px);
+}
+.green{
+    background-color: green;
+    @include rainbow(200px);
+}
+.blue{
+    background-color: blue;
+    @include rainbow(250px);
+}
+.navy{
+    @include rainbow(300px);
+    background-color: navy;
+}   
+.purple{
+    background-color: purple;
+    @include rainbow(350px);
+}
+
+
+// @mixin rainbow($color){
+//     background-color: $color;
+//     width:
+// }

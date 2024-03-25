@@ -1,0 +1,45 @@
+div {
+  display: flex;
+}
+
+.red {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
+
+.green {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.blue {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}
+
+.navy {
+  width: 300px;
+  height: 300px;
+  background-color: navy;
+}
+
+.purple {
+  background-color: purple;
+  width: 350px;
+  height: 350px;
+}
