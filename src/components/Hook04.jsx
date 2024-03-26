@@ -13,7 +13,7 @@ function change(e){
 
 function A(e){
     e.preventDefault();
-    setA(text.current);
+    setA(text.current.value);
 }
 
     return (
@@ -23,7 +23,7 @@ function A(e){
 
             <input type="text"  ref={text} onChange={change}/>
             <input type='submit' value="전송"/>            <br/>
-            <h1>전송된 단어 : {text.current}</h1>
+            <h1>전송된 단어 : {text.current.value}</h1>
             </form>
         </div>
     );

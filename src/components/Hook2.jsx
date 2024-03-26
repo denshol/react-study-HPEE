@@ -10,25 +10,14 @@ useEffect(()=>{
 },[])
    let [n,setN]= useState(0);
     let [c,setC] = useState('안녕하세요');
-
-
-
-
     function A(){
         setN(n+1);
         console.log('count 값이 변경되었습니다.')
     }
-
-
-
-
     function C(param){
         setC(param)
         console.log('text 값이 변경되었습니다.')
     }
-    
-
-
     return (
         <div style={{display:'flex',flexDirection:'column'}}>
            <h1>{n}</h1> 
